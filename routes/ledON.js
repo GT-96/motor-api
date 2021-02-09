@@ -12,7 +12,7 @@ router.get("/",function(req,res,next){
         LED.writeSync(1);
     }
     
-    res.send("LED is ON");
+    res.send("LED is ONN");
 
     // res.send("Beginning BlinkLED");
 })
